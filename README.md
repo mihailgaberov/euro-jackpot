@@ -1,4 +1,7 @@
-# aurelia-skeleton-navigation
+# Euro Jackpot
+
+An [Aurelia](http://aurelia.io/) based application for showing the current EuroJackpot draw information.
+
 
 ## Running The App
 
