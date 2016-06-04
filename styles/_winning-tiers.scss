@@ -1,0 +1,33 @@
+.tiers-container {
+
+  table.styled {
+    width: 100%;
+    border-collapse: collapse;
+
+    tr {
+        border-bottom: 1px solid $lighter-gray-color;
+
+      td {
+        font-weight: normal;
+        font-size: 0.750em;
+        line-height: 1.125em;
+        color: $dark-gray-color;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 2.188em;
+        padding: 0.375em;
+        vertical-align: middle;
+
+        &.number {
+          white-space: nowrap;
+          text-align: right;
+        }
+
+        &:last-of-type {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
