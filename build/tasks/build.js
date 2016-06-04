@@ -37,7 +37,7 @@ gulp.task('build-html', function() {
   gulp.task('build-css', function() {
     return gulp.src(paths.style)
       .pipe(plumber())
-      .pipe(changed(paths.style, {extension: '.css'}))
+      .pipe(changed(paths.style, {extension: '.scss'}))
       .pipe(sourcemaps.init())
       .pipe(sass())
       .pipe(sourcemaps.write())

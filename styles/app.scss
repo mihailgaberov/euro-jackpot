@@ -1,2 +1,7 @@
 @import 'aurelia-styles';
+@import 'variables';
+@import 'winning-numbers';
 
+.jackpot-name-color {
+  color: $jackpot-color;
+}
