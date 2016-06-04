@@ -2,6 +2,20 @@
 @import 'variables';
 @import 'winning-numbers';
 
-.jackpot-name-color {
-  color: $jackpot-color;
+.results-container {
+
+  header {
+    border-bottom: 1px solid $light-gray-color;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.8em;
+    font-family: KievitWebProBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.125em;
+    color: $dark-gray-color;
+  }
+
+  .jackpot-name-color {
+    color: $jackpot-brown-color;
+  }
 }
+

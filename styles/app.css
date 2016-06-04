@@ -137,7 +137,51 @@ div.au-stagger {
     opacity: 0; }
   100% {
     opacity: 1; } }
-.jackpot-name-color {
+.numbers-container {
+  margin-bottom: 6px; }
+  .numbers-container > header {
+    background: red;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1em; }
+  .numbers-container .balls {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    position: relative;
+    color: #535353;
+    font-family: Arial, sans-serif;
+    font-weight: normal; }
+    .numbers-container .balls li {
+      background: #fff;
+      display: inline-block;
+      border-radius: 30px;
+      width: 30px;
+      height: 30px;
+      line-height: 26px;
+      padding: 0;
+      border: 2px solid #ccc;
+      text-align: center;
+      font-size: 16px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+      position: relative;
+      color: #535353;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .numbers-container .balls li.extra {
+        border-color: #815422; }
+
+.results-container header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.8em;
+  font-family: KievitWebProBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.125em;
+  color: #535353; }
+.results-container .jackpot-name-color {
   color: #815422; }
 
 /*# sourceMappingURL=app.css.map */
