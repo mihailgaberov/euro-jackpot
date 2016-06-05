@@ -14,7 +14,7 @@ class HttpStub {
 }
 
 describe('the Results module', () => {
-  it('sets fetch response to jackpot data', (done) => {
+  it('sets fetch response to jackpot data', () => {
     var http = new HttpStub();
     var sut = new Results(http);
     var itemStubs = [1];
@@ -24,7 +24,6 @@ describe('the Results module', () => {
     sut.activate().then(() => {
       expect(sut.data).toBe(itemStubs);
       expect(sut.data).not.toBe(itemFake);
-      done();
     });
   });
 });
