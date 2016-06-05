@@ -3,7 +3,7 @@
 
   table.styled {
     width: 40%;
-    min-width: 450px;
+    min-width: 370px;
     border-collapse: collapse;
 
     tr {
@@ -78,12 +78,20 @@
   }
 }
 
-.results-footer {
+.footer-info-results {
+  width: 40%;
+  min-width: 280px;
+  margin-bottom: 48px;
+
   header {
     color: $darker-gray-color;
     display: block;
     margin-bottom: 12px;
     padding-bottom: 5px;
     border-bottom: 1px solid $light-gray-color;
+  }
+
+  .content {
+    font-size: 12px;
   }
 }

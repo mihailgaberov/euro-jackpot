@@ -177,7 +177,7 @@ div.au-stagger {
   margin-bottom: 48px; }
   .tiers-container table.styled {
     width: 40%;
-    min-width: 450px;
+    min-width: 370px;
     border-collapse: collapse; }
     .tiers-container table.styled tr {
       border-bottom: 1px solid #f2f2f2; }
@@ -226,12 +226,18 @@ div.au-stagger {
         .tiers-container table.styled tr td:last-of-type {
           padding-right: 0; }
 
-.results-footer header {
-  color: #535353;
-  display: block;
-  margin-bottom: 12px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ccc; }
+.footer-info-results {
+  width: 40%;
+  min-width: 280px;
+  margin-bottom: 48px; }
+  .footer-info-results header {
+    color: #535353;
+    display: block;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc; }
+  .footer-info-results .content {
+    font-size: 12px; }
 
 .results-container header {
   border-bottom: 1px solid #ccc;
