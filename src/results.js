@@ -46,8 +46,6 @@ export class Results {
       }
       return 0;
     }).reverse();
-
-    console.log(this.odds);
   }
 }
 
@@ -57,5 +55,11 @@ export class CurrencyFormatValueConverter {
     const cents =  value.substring(value.length - 2);
     const units = value.replace(cents, '');
     return '€' + numeral(units).format('0,0') + '.' + cents;
+  }
+}
+
+export class WinnersFormatValueConverter {
+  toView(value) {
+    return numeral(value).format('0,000');
   }
 }
