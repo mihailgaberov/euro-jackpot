@@ -174,24 +174,53 @@ div.au-stagger {
         border-color: #815422; }
 
 .tiers-container table.styled {
-  width: 100%;
+  width: 40%;
+  min-width: 450px;
   border-collapse: collapse; }
   .tiers-container table.styled tr {
     border-bottom: 1px solid #f2f2f2; }
     .tiers-container table.styled tr td {
       font-weight: normal;
-      font-size: 0.750em;
-      line-height: 1.125em;
+      font-size: 12px;
+      line-height: 18px;
       color: #999;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      height: 2.188em;
-      padding: 0.375em;
+      height: 35px;
+      padding: 6px;
       vertical-align: middle; }
       .tiers-container table.styled tr td.number {
         white-space: nowrap;
         text-align: right; }
+        .tiers-container table.styled tr td.number .entry {
+          display: inline-block;
+          white-space: nowrap;
+          padding-right: 0;
+          padding-left: 12px; }
+        .tiers-container table.styled tr td.number .money {
+          min-width: 125px; }
+        .tiers-container table.styled tr td.number .major {
+          font-size: 12px;
+          line-height: 18px;
+          color: #535353;
+          font-weight: bold; }
+        .tiers-container table.styled tr td.number .minor {
+          font-style: italic;
+          font-size: 10px;
+          color: #999;
+          font-family: Arial, sans-serif;
+          line-height: 18px; }
+      .tiers-container table.styled tr td.division {
+        color: #535353; }
+        .tiers-container table.styled tr td.division .entry {
+          display: inline-block;
+          padding-right: 12px;
+          white-space: nowrap; }
+        .tiers-container table.styled tr td.division .tier-span {
+          min-width: 80px; }
+        .tiers-container table.styled tr td.division .basic {
+          color: #999; }
       .tiers-container table.styled tr td:last-of-type {
         padding-right: 0; }
 

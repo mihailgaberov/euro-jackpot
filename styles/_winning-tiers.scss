@@ -1,27 +1,72 @@
 .tiers-container {
 
   table.styled {
-    width: 100%;
+    width: 40%;
+    min-width: 450px;
     border-collapse: collapse;
 
     tr {
-        border-bottom: 1px solid $lighter-gray-color;
+      border-bottom: 1px solid $lighter-gray-color;
 
       td {
         font-weight: normal;
-        font-size: 0.750em;
-        line-height: 1.125em;
+        font-size: 12px;
+        line-height: 18px;
         color: $dark-gray-color;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        height: 2.188em;
-        padding: 0.375em;
+        height: 35px;
+        padding: 6px;
         vertical-align: middle;
 
         &.number {
           white-space: nowrap;
           text-align: right;
+
+          .entry {
+            display: inline-block;
+            white-space: nowrap;
+            padding-right: 0;
+            padding-left: 12px;
+          }
+
+          .money {
+            min-width: 125px;
+          }
+
+          .major {
+            font-size: 12px;
+            line-height: 18px;
+            color: $darker-gray-color;
+            font-weight: bold;
+          }
+
+          .minor {
+            font-style: italic;
+            font-size: 10px;
+            color: $dark-gray-color;
+            font-family: Arial, sans-serif;
+            line-height: 18px;
+          }
+        }
+
+        &.division {
+          color: $darker-gray-color;
+
+          .entry {
+            display: inline-block;
+            padding-right: 12px;
+            white-space: nowrap;
+          }
+
+          .tier-span {
+            min-width: 80px;
+          }
+
+          .basic {
+            color: $dark-gray-color;
+          }
         }
 
         &:last-of-type {
