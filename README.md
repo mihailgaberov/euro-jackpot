@@ -2,6 +2,7 @@
 
 An [Aurelia](http://aurelia.io/) based application for showing the current EuroJackpot draw information.
 
+![Image of the app](https://github.com/mihailgaberov/euro-jackpot/blob/master/screenshot.png)
 
 ## Running The App
 
