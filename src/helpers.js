@@ -2,8 +2,8 @@ import numeral from 'numeral';
 
 export class CurrencyFormatValueConverter {
   toView(value) {
-  	if (!value) {
-		throw new Error('No valid currency data to be converted.');
+  	if (value === undefined) {
+		  throw new Error('No valid currency data to be converted.');
   	}
   	
     value = value.toString();
@@ -15,8 +15,8 @@ export class CurrencyFormatValueConverter {
 
 export class WinnersFormatValueConverter {
   toView(value) {
-  	if (!value) {
-		throw new Error('No valid winners data to be converted.');
+  	if (value === undefined) {
+		  throw new Error('No valid winners data to be converted.');
   	}
 
     return numeral(value).format('0,000');
